@@ -1,0 +1,214 @@
+body {
+    margin: .5%;
+    background-color: brown;
+}
+
+.grid-container {
+    display: grid;
+}
+
+.painter-image {
+    background-image: url("painter.jpg");
+    background-color: brown;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.painter-text {
+    font-family: 'Major Mono Display';
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgba(51, 51, 51, 0.45);
+}
+
+.curiosity-image {
+    background-image: url("curiosity.jpg");
+    background-color: brown;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.curiosity-text {
+    font-family: 'Major Mono Display';
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgba(51, 51, 51, 0.65);
+}
+
+
+.contact-image {
+    background-image: url("curiosity.jpg");
+    background-color: brown;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contact-text {
+    font-family: 'Major Mono Display';
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgba(51, 51, 51, 0.65);
+}
+
+
+.history-image {
+    background-image: url("history.jpg");
+    background-color: brown;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.history-text {
+    font-family: 'Major Mono Display';
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: bisque;
+    padding: 20px;
+    border: 1px solid red;
+    background-color: rgba(51, 51, 51, 0.65);
+}
+
+
+.c1 {
+
+    font-family: 'Rajdhani-Medium';
+    text-align: center;
+    position: inherit;
+    top: 50%;
+    color: bisque;
+    border: 1px solid red transparent;
+    background-color: rgba(51, 51, 51, 0.75);
+    padding: 10px;
+}
+
+
+.info {
+
+    font-family: 'Major Mono Display';
+    text-align: center;
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    color: bisque;
+    border: 1px solid red transparent;
+    background-color: rgba(51, 51, 51, 0.75);
+    padding: 10px;
+}
+
+.box {
+    border: 1px solid red transparent;
+    background-color: brown;
+    padding: 5px;
+}
+
+
+.footer {
+
+    font-family: 'Major Mono Display';
+    text-align: center;
+    position: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    top: 50%;
+    color: bisque;
+    border: 1px solid red transparent;
+    background-color: #333
+    padding: 10px;
+}
+
+ul {
+    font-family: 'Major Mono Display';
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit- sticky;
+    position: sticky;
+    top: 0;
+}
+
+li {
+    font-family: 'Major Mono Display';
+    float: left;
+}
+
+li a {
+    font-family: 'Major Mono Display';
+    display: block;
+    color: bisque;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:link {
+    font-family: 'Major Mono Display';
+    background-color: #333;
+}
+
+li a:visited {
+    font-family: 'Major Mono Display';
+    background-color: #333;
+}
+
+li a:hover {
+    font-family: 'Major Mono Display';
+    background-color: brown;
+}
+
+li a:active {
+    font-family: 'Major Mono Display';
+    background-color: #333;
+}
+
+@media screen and (max-width: 768px) {
+    .history-text{width: 100%;}
+    .contact-text{width: 100%;
+                  position: center;}
+    .curiosity-text{ width: 100%;}
+    .painter-text{width: 100%;}
+    .history-image{width: 100%;}
+    .painter-image{width: 100%;}
+    .curiosity-image{width: 100%;}
+    .box{width: 100%;}
+    li {
+        font-family: 'Major Mono Display';
+        float: left;
+    }
+}
+
