@@ -4,7 +4,7 @@
  ***Proiectul 1 - Branch: Project 1***
 
 **Detalii:**
-Inteligent Artificiala - Proiect 1
+Inteligenta Artificiala - Proiect 1
 
 Realizarea imaginilor mozaic
 
@@ -20,7 +20,7 @@ aproximeze cat mai bine imaginea de referinta.
  ***Proiectul 2 - Branch: Project 2***
  
 **Detalii:**
-Inteligent Artificiala - Proiect 2
+Inteligenta Artificiala - Proiect 2
 
 Redimensionarea imaginilor cu pastrarea continutului
 
@@ -32,7 +32,7 @@ a imaginilor cu pastrarea continutului propus de S. Avidan si A. Shamir in artic
  ***Proiectul 3 - Branch: Project 3***
  
 **Detalii:**
-Inteligent Artificiala - Proiect 3
+Inteligenta Artificiala - Proiect 3
 
 Sinteza si transferul texturii
 
